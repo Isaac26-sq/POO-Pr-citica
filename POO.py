@@ -67,7 +67,7 @@ print()
 print(Personaje1.atacar("Viper"))
 print(Personaje1.curar(50))
 print(Personaje1.vandal(150))
-print(Personaje2.vandal(160))
+print(Personaje2.vandal(100))
 print(f"{Personaje1.nombre} tiene las habilidades de {Personaje1.habilidad} y su rol es: {Personaje1.rol} ")
 
 
