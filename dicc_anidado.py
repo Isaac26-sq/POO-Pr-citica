@@ -26,6 +26,6 @@ for key, value in Perfil.items():
 
 
 with open("Perfil.json", "w") as archivo: 
-    json.dump(Perfil, archivo, indent=4) # indent=4 : 
+    json.dump(Perfil, archivo, indent=4) # indent=4 : es para que el formato del json se vea mejor dentro del archivo. 
 
 print("Archivo Creado!!")

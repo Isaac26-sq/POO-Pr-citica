@@ -3,7 +3,7 @@
 class Personaje:
     #  inicialización
     def __init__(self, nombre, clase, nivel, salud, mana):
-        # Atributos de la clase
+        # Atributos de instancia
         self.nombre = nombre
         self.clase = clase
         self.nivel = nivel
@@ -14,7 +14,6 @@ class Personaje:
     def atacar(self, objetivo):
         return f"{self.nombre} ataca a {objetivo}!"
     
-  
     def curar(self, cantidad):
         self.salud += cantidad
         return f"{self.nombre} se cura {cantidad} puntos de salud."
