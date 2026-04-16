@@ -15,7 +15,7 @@ def numeros(n):
 numeros(600)
 
 
-@contador_numeros
+
 def suma(n1, n2):
     return n1 + n2
     

@@ -17,10 +17,15 @@ Perfil = {
     }
 }
 
-print(Perfil["Estudiante1"]["Nombre"] + "\n" + Perfil["Estudiante1"]["Genero"])
+
+for key, value in Perfil.items():
+    print(f"{key} :")
+    for i, j in value.items():
+        print(f"{i} : {j}")
+
 
 
 with open("Perfil.json", "w") as archivo: 
-    json.dump(Perfil, archivo)
+    json.dump(Perfil, archivo, indent=4) # indent=4 : 
 
-print("estoy dentro!!")
+print("Archivo Creado!!")

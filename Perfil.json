@@ -1,1 +1,14 @@
-{"Estudiante": {"Nombre": "Jose Caizedo", "Genero": "Masculino", "edad": "34", "Serie_Fav": "Malcolm in the middle"}, "Estudiante1": {"Nombre": "Elian", "Genero": "Masculino", "edad": "20", "Serie_Fav": "The Chosen"}}
+{
+    "Estudiante": {
+        "Nombre": "Jose Caizedo",
+        "Genero": "Masculino",
+        "edad": "34",
+        "Serie_Fav": "Malcolm in the middle"
+    },
+    "Estudiante1": {
+        "Nombre": "Elian",
+        "Genero": "Masculino",
+        "edad": "20",
+        "Serie_Fav": "The Chosen"
+    }
+}
