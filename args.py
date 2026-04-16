@@ -20,9 +20,17 @@ def total(*args):
 
 total(100, 200, 300, 400)
 
+def resta(primero, *args):
+    resultado = primero - sum(args)
+    return f"El resultado de la resta es: {resultado}"
+resta(1000, 40, 50)
 
-for i in range(10):
-    print(i)
+
+
+
+
+
+
 
 
     
