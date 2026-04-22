@@ -15,6 +15,9 @@ tres = list(filter(lambda palabra: len(palabra) > 3 , palabras))
 extras = list(map(lambda p: p + " | Aprobado", tres))
 
 print(extras)
+
+
+
     
 
 
