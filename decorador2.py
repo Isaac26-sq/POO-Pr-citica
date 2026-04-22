@@ -14,8 +14,6 @@ def numeros(n):
         print(i)
 numeros(600)
 
-
-
 def suma(n1, n2):
     return n1 + n2
     
